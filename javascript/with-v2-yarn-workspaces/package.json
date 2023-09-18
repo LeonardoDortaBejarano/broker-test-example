@@ -1,0 +1,16 @@
+{
+    "name": "with-yarn-v2-workspaces",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "analyze": "fossa analyze -o"
+      },
+    "author": "Megh <megh@fossa.com>",
+    "workspaces": [
+        "packages/*"
+    ],
+    "dependencies": {
+        "underscore": "latest"
+    }
+}
